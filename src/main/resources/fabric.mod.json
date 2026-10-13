@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "mcstats-to-sql",
+	"version": "${version}",
+	"name": "MCStats-to-SQL",
+	"description": "Writes all Minecraft player statistics to a SQL database (remote MySQL/MariaDB or local SQLite file).",
+	"authors": [
+		"Maxirius"
+	],
+	"contact": {
+		"homepage": "https://github.com/Maxirius/MCStats-to-SQL",
+		"sources": "https://github.com/Maxirius/MCStats-to-SQL"
+	},
+	"license": "MIT",
+	"icon": "assets/mcstats-to-sql/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"com.maxkuehn.mcstatstsql.MCStatsToSql"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
